@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: tomato;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    border: 2px solid tomato;
+    height: 99%;
+    margin: auto;
+    background: tomato;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.ball {
+    width: 30px;
+    height: 30px;
+    border: 2px solid none;
+    border-radius: 50%;
+    margin: 150px 0 0 0;
+}
+
+.ball1 {
+    background: #fff;
+    animation-name: ball1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.3s;
+    position: relative;
+    top: 50px;
+}
+
+.ball2 {
+    background: #fff;
+    animation-name: ball1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+    position: relative;
+    top: 50px;
+}
+
+.ball3 {
+    background-color: #fff;
+    animation-name: ball1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.8s;
+    position: relative;
+    top: 50px;
+}
+
+.ball4 {
+    background-color: #fff;
+    animation-name: ball1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.3s;
+    position: relative;
+    top: 50px;
+}
+
+.ball5 {
+    background-color: #fff;
+    animation-name: ball1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.7s;
+    position: relative;
+    top: 50px;
+}
+
+
+/*--------------------CONTAINER2--------------*/
+
+@keyframes ball1 {
+    50% {
+        top: 80px;
+    }
+    100% {
+        top: 50px;
+    }
+}
